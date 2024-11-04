@@ -19,10 +19,10 @@ import { links } from '~/constants'
         <YlfIconItem to="/cookbooks" icon="i-ri-article-line" label="自定义菜谱" />
       </div>
 
-      <YlfForm>
-        <YlfFormItem icon="i-ri-feedback-line" label="立即反馈" :to="links.feedback" target="_blank" />
-        <YlfFormItem icon="i-ri-mail-send-line" label="立即投稿" :to="links.contribute" target="_blank" />
-      </YlfForm>
+<!--      <YlfForm>-->
+<!--        <YlfFormItem icon="i-ri-feedback-line" label="立即反馈" :to="links.feedback" target="_blank" />-->
+<!--        <YlfFormItem icon="i-ri-mail-send-line" label="立即投稿" :to="links.contribute" target="_blank" />-->
+<!--      </YlfForm>-->
 
       <YlfForm>
         <YlfFormItem icon="i-ri-settings-line" label="设置" to="/settings" />
@@ -32,12 +32,12 @@ import { links } from '~/constants'
         <YlfFormItem icon="i-ri-article-line" label="自定义菜谱 TODO" to="/cookbooks/" />
       </YlfForm> -->
 
-      <YlfForm>
-        <YlfFormItem icon="i-ri-question-line" label="帮助" to="/help" />
-        <YlfFormItem icon="i-ri-information-line" label="关于" to="/help" />
-      </YlfForm>
+<!--      <YlfForm>-->
+<!--        <YlfFormItem icon="i-ri-question-line" label="帮助" to="/help" />-->
+<!--        <YlfFormItem icon="i-ri-information-line" label="关于" to="/help" />-->
+<!--      </YlfForm>-->
     </div>
 
-    <BaseFooter mt-4 />
+<!--    <BaseFooter mt-4 />-->
   </div>
 </template>
