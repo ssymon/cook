@@ -15,7 +15,7 @@ const rStore = useRecipeStore()
       </button>
     </div>
     <p text="sm" m="b-4">
-      好的，今天我们来做菜！
+      哇哦，孙同学又来学做饭了！
     </p>
 
     <ChooseFood />
